@@ -1,0 +1,22 @@
+{
+  "name": "paginaweb",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "http-status": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.2",
+    "supertest": "^3.0.0"
+  }
+}
