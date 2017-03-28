@@ -1,13 +1,14 @@
-/**var models={};
-models.user=require('./user')();
-module.exports=models; **/
-var Schema = require('mongoose').Schema,
+var moongose = require('mongoose');
+	
+var Schema = mongoose.Schema,
 	ObjectId=Schema.ObjectId;
 
-var user = new Schema({
+var modelsSchema= new Schema ({
 	username: String, 
 	firstname: String,
 	lastname: String,
 	password: String
 });
 
+var models = mongoose.model('models', modelsSchema);
+module.exports=models;

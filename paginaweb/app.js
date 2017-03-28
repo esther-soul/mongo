@@ -12,5 +12,4 @@ app.use(getRoutes(models));
 app.listen(8080,function(){
 	console.log('La magia sucede en http://localhost:8080');
 });
-
 module.exports=app;
